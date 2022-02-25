@@ -24,21 +24,21 @@ function random_color() {
 	return color;
 }
 
-function insertColor(){
-	var randomColor = random_color();
-	var randomColor1 = random_color();
-	console.log(randomColor1);
+// function insertColor(){
+// 	var randomColor = random_color();
+// 	var randomColor1 = random_color();
+// 	console.log(randomColor1);
 
 
-	body.style.background = "linear-gradient(to right, "
-	 + randomColor
-	 + "," 
-	 + randomColor1
-	 + ")";
+// 	body.style.background = "linear-gradient(to right, "
+// 	 + randomColor
+// 	 + "," 
+// 	 + randomColor1
+// 	 + ")";
 
-	 css.textContent = body.style.background + ";";
+// 	 css.textContent = body.style.background + ";";
 
-}
+// }
 
 // generateButton = document.createElement("button");
 // body.appendChild(generateButton);
